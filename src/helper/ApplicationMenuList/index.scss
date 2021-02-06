@@ -1,0 +1,18 @@
+.list-container {
+    padding: 30px 0px;
+    &__list {
+        padding: 20px 0;
+        &__title {
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+        }
+    }
+    &__items {
+        &__container {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+    }
+}
